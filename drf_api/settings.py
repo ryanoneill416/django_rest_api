@@ -120,7 +120,7 @@ if 'CLIENT_ORIGIN_DEV' in os.environ:
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
-    "https://moments-app-wt.herokuapp.com/"
+    "https://moments-app-wt.herokuapp.com"
 ]
 
 ROOT_URLCONF = 'drf_api.urls'
